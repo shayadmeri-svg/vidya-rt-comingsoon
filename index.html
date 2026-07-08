@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vidya-RT | JEE, NEET &amp; Board Exam Mock Tests — Coming Soon</title>
+    <meta name="description" content="Vidya-RT is a real-time mock test engine for JEE, NEET and Board exams — full-length adaptive mocks, hyper-local percentiles and sub-concept mastery reports for Physics, Chemistry, Biology and Mathematics. Launching soon." />
+    <meta name="keywords" content="JEE mock test, NEET mock test, JEE Advanced practice, NEET practice test, CBSE board exam preparation, ICSE board exam preparation, online mock test India, JEE percentile calculator, NEET percentile calculator, Vidya-RT, VidyaRT" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Vidya-RT" />
+    <link rel="canonical" href="https://vidyart.com/" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Vidya-RT — Learn Limitless" />
+    <meta property="og:description" content="Real-time mock engine for JEE, NEET and Boards — full-length mocks, hyper-local percentiles, sub-concept reports. Launching soon." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vidyart.com/" />
+    <meta property="og:site_name" content="Vidya-RT" />
+    <meta property="og:image" content="https://vidyart.com/logo-mark.png" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vidya-RT — Learn Limitless" />
+    <meta name="twitter:description" content="Real-time mock engine for JEE, NEET and Boards. Launching soon." />
+    <meta name="twitter:image" content="https://vidyart.com/logo-mark.png" />
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Vidya-RT",
+        "alternateName": "VidyaRT",
+        "url": "https://vidyart.com/",
+        "logo": "https://vidyart.com/logo-mark.png",
+        "sameAs": ["https://vidyart.info/", "https://vidyart.online/"],
+        "description": "Real-time mock test engine for JEE, NEET and Board exams with adaptive mocks, hyper-local percentiles and sub-concept mastery reports."
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300..700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --background: oklch(0.145 0 0);
+        --foreground: oklch(0.985 0 0);
+        --primary: oklch(0.78 0.17 160);
+        --primary-foreground: oklch(0.13 0.03 160);
+        --muted-foreground: oklch(0.72 0.01 90);
+        --border: oklch(1 0 0 / 12%);
+        --accent: oklch(0.27 0.045 160);
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+
+      html, body {
+        height: 100%;
+        background: var(--background);
+        color: var(--foreground);
+      }
+
+      body {
+        font-family: "Cormorant Garamond", "Noto Serif", Georgia, serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        padding: 24px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* subtle radial glow, echoes the dark academic aesthetic */
+      body::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          ellipse 60% 50% at 50% 0%,
+          oklch(0.78 0.17 160 / 0.14),
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+
+      .logo {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 28px;
+        object-fit: contain;
+        filter: drop-shadow(0 0 24px oklch(0.78 0.17 160 / 0.35));
+      }
+
+      .eyebrow {
+        font-family: "Geist Mono", monospace;
+        font-size: 0.72rem;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--primary);
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        font-size: clamp(2.4rem, 7vw, 4.6rem);
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        line-height: 1.05;
+      }
+
+      h1 .accent {
+        color: var(--primary);
+        font-style: italic;
+      }
+
+      .tagline {
+        margin-top: 18px;
+        font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+        font-weight: 400;
+        font-style: italic;
+        color: var(--muted-foreground);
+        max-width: 34rem;
+      }
+
+      .links {
+        margin-top: 30px;
+        font-family: "Geist Mono", monospace;
+        font-size: 0.78rem;
+        letter-spacing: 0.03em;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .links a {
+        color: var(--foreground);
+        text-decoration: none;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 2px;
+        transition: color 0.15s ease, border-color 0.15s ease;
+      }
+
+      .links a:hover {
+        color: var(--primary);
+        border-color: var(--primary);
+      }
+
+      .links .sep {
+        color: var(--muted-foreground);
+        opacity: 0.4;
+      }
+
+      .divider {
+        width: 44px;
+        height: 1px;
+        background: var(--border);
+        margin: 34px 0;
+      }
+
+      .desc {
+        font-family: "Geist Mono", monospace;
+        font-size: 0.85rem;
+        letter-spacing: 0.01em;
+        color: var(--muted-foreground);
+        max-width: 30rem;
+        line-height: 1.7;
+      }
+
+      .subjects {
+        display: flex;
+        gap: 10px;
+        margin-top: 34px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .pill {
+        font-family: "Geist Mono", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 7px 14px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--foreground);
+        background: var(--accent);
+      }
+
+      footer {
+        position: absolute;
+        bottom: 22px;
+        font-family: "Geist Mono", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        color: var(--muted-foreground);
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="logo" src="logo-mark.png" alt="Vidya-RT" />
+
+    <div class="eyebrow">Learn Limitless</div>
+
+    <h1>Vidya<span class="accent">-RT</span></h1>
+
+    <h2 class="tagline">The real-time mock engine for JEE, NEET &amp; Boards.</h2>
+
+    <div class="divider"></div>
+
+    <p class="desc">
+      Full-length adaptive mocks, hyper-local percentiles, and sub-concept
+      mastery reports — built with the rigour of an IIT problem-setter.
+      We're putting the final touches on it. Something worth the wait
+      is on its way.
+    </p>
+
+    <div class="subjects">
+      <span class="pill">Physics</span>
+      <span class="pill">Chemistry</span>
+      <span class="pill">Biology</span>
+      <span class="pill">Mathematics</span>
+    </div>
+
+    <nav class="links" aria-label="Vidya-RT sites">
+      <a href="https://vidyart.info/" rel="noopener">About Vidya-RT · vidyart.info</a>
+      <span class="sep">/</span>
+      <a href="https://vidyart.online/" rel="noopener">Launch App · vidyart.online</a>
+    </nav>
+
+    <footer>Coming Soon</footer>
+  </body>
+</html>
