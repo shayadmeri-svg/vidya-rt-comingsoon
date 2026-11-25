@@ -1,0 +1,22 @@
+# VidyaRT for Teachers
+
+> Online assessment creation, AI-assisted question authoring, exam controls, and reports for teachers and coaching institutes.
+
+## Pages
+- [Online Test Maker for Teachers & Coaching | VidyaRT](https://vidyart.com/): Create online tests and JEE or NEET mocks with VidyaRT. Tools for teachers and coaching institutes: AI-assisted questions, exam controls, and student reports.
+- [Online Test Maker for Teachers | VidyaRT](https://vidyart.com/online-test-maker.html): Create online tests with VidyaRT: choose chapters and question types, set marks and timing, assign students, and review results to plan your next lesson.
+- [Assessment Software for Coaching Institutes | VidyaRT](https://vidyart.com/coaching-institute-software.html): Run JEE and NEET mock tests for your coaching institute with VidyaRT. Create papers, manage assessments, and review class, student and chapter performance.
+- [Student Performance Reports for Teachers | VidyaRT](https://vidyart.com/student-performance-reports.html): Use VidyaRT reports to review class results, student progress, chapter accuracy, question responses and timing, then plan focused teaching and practice.
+- [AI Question & Solution Tools for Teachers | VidyaRT](https://vidyart.com/ai-question-generator.html): Use VidyaRT AI tools to draft worked solutions and plausible wrong answers, review misconception-based distractors, and prepare questions for your next test.
+- [Teacher Assessment Plans & Pricing | VidyaRT](https://vidyart.com/plans.html): Compare VidyaRT Free, Gold, Platinum, and Diamond. Start with 5 students, 5 tests, and 25 AI question runs. Contact us for paid plan pricing.
+- [About VidyaRT | Practice for Students, Tools for Teachers](https://vidyart.com/about.html): Meet VidyaRT: JEE and NEET practice for students, and online assessment tools for teachers and coaching institutes. Find the right website, app, or contact.
+
+## Product boundaries
+- Student sign-in: https://app.vidyart.online/
+- Teacher sign-in: https://admin.vidyart.online/
+- Plans and contact: https://vidyart.com/plans.html
+- About VidyaRT: https://vidyart.com/about.html
+- Available assessments depend on the student account or institute.
+- Features depend on the plan. Free quotas are lifetime limits.
+- Rank estimates are planning aids, not official results or admission guarantees.
+- AI-generated questions and solutions require teacher review.

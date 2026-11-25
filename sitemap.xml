@@ -1,13 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vidyart.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/guided-learning.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vidyart.com/images/breakthrough.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vidyart.com/images/learning-together.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vidyart.com/online-test-maker.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/guided-learning.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vidyart.com/coaching-institute-software.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/learning-together.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vidyart.com/student-performance-reports.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/breakthrough.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vidyart.com/ai-question-generator.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/guided-learning.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://vidyart.com/plans.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-26</lastmod>
+  </url>
+  <url>
+    <loc>https://vidyart.com/about.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <image:image>
+      <image:loc>https://vidyart.com/images/learning-together.webp</image:loc>
+    </image:image>
   </url>
 </urlset>
